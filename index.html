@@ -1,0 +1,48 @@
+//get all server names, ips, ports, online status, and player count
+app.MapGet(/arkendpoint={apikey}})
+
+
+variable = name, status, ip, port, players, map, version, mods, lastUpdated
+
+
+1 user can have many tickets
+1 ticket can have many admins assigned to it
+
+
+return variable
+
+ArkButton component
+
+arkObject = feched data
+destructuring of the json fetch data into an object which becomes the props of the ArkButton component
+<button onclick = update usestate to be used as a prop>ArkSE Status</button>
+
+
+
+
+AllStatus component
+
+useeffect
+const receivedInput = props passed from arkstatus component
+destructure receivedInput
+
+<ul>
+    <li><ArkButton></li>
+    <li><EcoButton></li>
+    <li><MinecraftButton></li>
+</ul>
+
+<div>
+
+</div>
+
+
+
+applicationviews 
+<Route>
+    <allstatus />
+</Route>
+
+
+
+
